@@ -36,7 +36,7 @@ Detailed instructions:
 
 The plugin can be accessed as a Singleton from the ```Engine``` class:
 
-```
+```GDScript
 var uiModeManager
 
 if Engine.has_singleton("UIModeManager"):
@@ -45,7 +45,7 @@ if Engine.has_singleton("UIModeManager"):
 
 In order to check the current UI mode of an Android device, use the following code:
 
-```
+```GDScript
 # To avoid any issues, check if the app is running on an Android device before executing this line of code 
 var UI_MODE_FLAG = uiModeManager.get_mode()
 ```
