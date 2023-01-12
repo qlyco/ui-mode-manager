@@ -13,7 +13,7 @@ an Android device's UI mode, allowing you to change your app's UI into dark or l
 
 ### Setup
 
-1. Download the ```UIMode.gdap``` and ```UIMode.release.aar``` files from the releases page
+1. Download the ```UIMode.gdap``` and ```UIMode.release.aar``` files from the [releases](https://github.com/qlyco/ui-mode-manager/releases) page
 2. Go into your Godot project and install the Android build template (```Project > Install Android Build Template...```)
 3. Move both ```UIMode.gdap``` and ```UIMode.release.aar``` files into the ```android/plugins``` directory inside your project
 4. Enable the plugin inside the export menu (```Project > Export...``), on the Plugins section. You may need to add an export template for Android
