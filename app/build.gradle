@@ -28,6 +28,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    libraryVariants.all { variant ->
+        variant.outputs.all { output ->
+            output.outputFileName = "UIMode.${variant.name}.aar"
+        }
+    }
 }
 
 dependencies {
