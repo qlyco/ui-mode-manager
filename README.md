@@ -3,7 +3,7 @@
 UIModeManager is an Android plugin for Godot Engine 3.5.1. The plugin can query the current state of
 an Android device's UI mode, allowing you to change your app's UI into dark or light mode version.
 
-![Banner](#)
+![Banner](https://github.com/qlyco/ui-mode-manager/blob/master/banner.png)
 
 [![Android](https://img.shields.io/badge/Platform-Android-brightgreen.svg)](https://developer.android.com)
 [![Godot](https://img.shields.io/badge/Godot%20Engine-3.5.1-blue.svg)](https://github.com/godotengine/godot/)
